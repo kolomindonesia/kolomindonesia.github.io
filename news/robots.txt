@@ -1,0 +1,7 @@
+User-agent: *
+
+ 
+User-agent: Googlebot-Image
+Allow:
+ 
+Sitemap: https://kolomindonesia.github.io/news/sitemap.xml
