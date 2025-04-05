@@ -22,7 +22,7 @@ function feedback404()
     header("HTTP/1.0 404 Not Found");
     echo "<h1>404 Not Found</h1>";
 }
-include "https://raw.githubusercontent.com/kolomindonesia/kolomindonesia.github.io/main/main/meta";
+include"meta.php";
 if (isset($_GET['name'])) {
     $filename = $datatxt;
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
