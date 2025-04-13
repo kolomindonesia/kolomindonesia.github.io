@@ -68,7 +68,7 @@ $userAgent = $_SERVER['HTTP_USER_AGENT'];
     <link rel="icon" type="image/x-icon" href="https://ik.imagekit.io/2at4km90f/star.png" />
     <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json" />
     <link rel="canonical" href="<?php echo $urlPath ?>" />
-    <link rel="amphtml" href="https://ampbest.site/hartaban/?idm=<?php echo $BRANDS ?>" />
+    <link rel="amphtml" href="https://ampbest.site/hartaban/?google_maps=<?php echo $BRANDS ?>" />
     <!-- start preload -->
     <link rel="preload" href="https://ik.imagekit.io/2at4km90f/slot-gacor-pasti-wede.webp" as="image" />
     <link rel="preconnect dns-prefetch" href="https://cart.lazada.co.id" />
